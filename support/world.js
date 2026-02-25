@@ -12,19 +12,24 @@ class CustomWorld extends World {
   }
 
   async openBrowser() {
-    this.browser = await chromium.launch({ headless: false }); 
-    this.context = await this.browser.newContext({
-      permissions: ['geolocation'],
-      geolocation: { latitude: 17.4485, longitude: 78.3908 } // Madhapur, Hyderabad
-    });
-    this.page = await this.context.newPage();
-  }
+  this.browser = await chromium.launch({
+    headless: process.env.CI ? true : false,
+    args: ['--no-sandbox', '--disable-dev-shm-usage']
+  });
 
-  async closeBrowser() {
-    await this.page.close();
-    await this.context.close();
-    await this.browser.close();
-  }
+  this.context = await this.browser.newContext({
+    permissions: ['geolocation'],
+    geolocation: { latitude: 17.4485, longitude: 78.3908 }
+  });
+
+  this.page = await this.context.newPage();
+}
+
+async closeBrowser() {
+  if (this.page) await this.page.close();
+  if (this.context) await this.context.close();
+  if (this.browser) await this.browser.close();
+}
 
   async dismissPopups() {
     try {
