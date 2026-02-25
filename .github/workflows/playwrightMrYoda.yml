@@ -1,4 +1,4 @@
-name: Playwright JS Automation
+name: MrYodaUI Playwright Cucumber Automation
 
 on:
   push:
@@ -10,11 +10,11 @@ on:
       - main
 
 jobs:
-  run-playwright:
+  run-tests:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Node
@@ -28,12 +28,15 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
 
-      - name: Run Playwright Tests
-        run: npx playwright test
+      - name: Run Cucumber Tests
+        run: npm test
 
-      - name: Upload Playwright Report
+      - name: Upload Reports
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: Playwright-Report
-          path: playwright-report/
+          name: MrYodaUI-Test-Reports
+          path: |
+            playwright-report/
+            test-results/
+            reports/

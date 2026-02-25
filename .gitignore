@@ -1,0 +1,25 @@
+# Node
+node_modules/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+
+# Cucumber
+reports/
+cucumber-report.html
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Environment files
+.env
