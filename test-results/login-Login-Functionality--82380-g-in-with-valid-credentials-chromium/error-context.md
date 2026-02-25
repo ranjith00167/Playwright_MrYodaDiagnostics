@@ -1,0 +1,1291 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e6]:
+      - alert [ref=e8]:
+        - generic [ref=e10]:
+          - heading [level=5] [ref=e11]: Get 10% OFF on Membership (₹1000 max)
+          - button [ref=e12] [cursor=pointer]:
+            - img [ref=e13]
+      - generic [ref=e17]:
+        - generic [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+          - paragraph [ref=e20]: India's Health, Reimagined by AI
+        - generic [ref=e21]:
+          - generic [ref=e23]:
+            - generic [ref=e24]:
+              - img [ref=e26]
+              - generic [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: Select Location
+                - img [ref=e33]
+            - generic [ref=e36]:
+              - textbox [ref=e37]:
+                - /placeholder: Search test, symptom, organ etc
+              - img [ref=e38]
+          - img [ref=e42] [cursor=pointer]
+          - button [ref=e43] [cursor=pointer]:
+            - img [ref=e45]
+          - button [ref=e47] [cursor=pointer]:
+            - button [ref=e48]:
+              - generic [ref=e49]: Login
+              - img [ref=e51]
+    - generic [ref=e55]:
+      - navigation [ref=e56]:
+        - list [ref=e58]:
+          - listitem [ref=e59]:
+            - button [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - paragraph [ref=e63]: Home
+          - listitem [ref=e64]:
+            - button [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - paragraph [ref=e68]: Diagnostics
+          - listitem [ref=e69]:
+            - button [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+              - paragraph [ref=e73]: DNA Decoder
+          - listitem [ref=e74]:
+            - button [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+              - generic [ref=e77]:
+                - paragraph [ref=e78]: MedMatch
+                - img [ref=e79]
+          - listitem [ref=e80]:
+            - button [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e83]:
+                - paragraph [ref=e84]: Fetal Medicine
+                - img [ref=e85]
+      - generic [ref=e87] [cursor=pointer]:
+        - img [ref=e89]
+        - paragraph [ref=e93]: Upload Prescription
+    - main [ref=e94]:
+      - img [ref=e102]
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - heading [level=2] [ref=e107]: UPTO 10% OFF
+            - generic [ref=e108]:
+              - heading [level=3] [ref=e109]: Diagnostics
+              - paragraph [ref=e110]: Free Home Collection
+          - button [ref=e112] [cursor=pointer]:
+            - img [ref=e113]
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - heading [level=2] [ref=e119]: UPTO 10% OFF
+            - generic [ref=e120]:
+              - heading [level=3] [ref=e121]: DNA Decoder
+              - paragraph [ref=e122]: Personalized Insights
+          - button [ref=e124] [cursor=pointer]:
+            - img [ref=e125]
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - heading [level=2] [ref=e131]: UPTO 10% OFF
+            - generic [ref=e132]:
+              - heading [level=3] [ref=e133]: MedMatch
+              - paragraph [ref=e134]: Better Med Choices
+          - button [ref=e136] [cursor=pointer]:
+            - img [ref=e137]
+        - generic [ref=e141]:
+          - generic [ref=e142]:
+            - heading [level=2] [ref=e143]: UPTO 10% OFF
+            - generic [ref=e144]:
+              - heading [level=3] [ref=e145]: Fetal Medicine
+              - paragraph [ref=e146]: Pregnancy Care
+          - button [ref=e148] [cursor=pointer]:
+            - img [ref=e149]
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - heading [level=3] [ref=e156]: Best Seller
+          - paragraph [ref=e158] [cursor=pointer]: View All
+        - generic [ref=e161]:
+          - generic [ref=e164]:
+            - heading [level=4] [ref=e166]: Antenatal Profile -2
+            - generic [ref=e167]:
+              - generic [ref=e169]:
+                - img [ref=e170]
+                - paragraph [ref=e173]: "Tests : 8 Included"
+              - generic [ref=e174]:
+                - img [ref=e175]
+                - generic [ref=e176]: Mr. Yoda’s Club
+                - paragraph [ref=e177]:
+                  - text: "Member Price :"
+                  - generic [ref=e178]: ₹1,800
+              - generic [ref=e179]:
+                - paragraph [ref=e181]: ₹2,000
+                - generic [ref=e182]:
+                  - button [ref=e183] [cursor=pointer]: View
+                  - button [ref=e184] [cursor=pointer]: Add to cart
+          - generic [ref=e187]:
+            - heading [level=4] [ref=e189]: Master Health Checkup
+            - generic [ref=e190]:
+              - generic [ref=e192]:
+                - img [ref=e193]
+                - paragraph [ref=e196]: "Tests : 22 Included"
+              - generic [ref=e197]:
+                - img [ref=e198]
+                - generic [ref=e199]: Mr. Yoda’s Club
+                - paragraph [ref=e200]:
+                  - text: "Member Price :"
+                  - generic [ref=e201]: ₹2,700
+              - generic [ref=e202]:
+                - paragraph [ref=e204]: ₹3,000
+                - generic [ref=e205]:
+                  - button [ref=e206] [cursor=pointer]: View
+                  - button [ref=e207] [cursor=pointer]: Add to cart
+          - generic [ref=e210]:
+            - heading [level=4] [ref=e212]: Bone Profile -1
+            - generic [ref=e213]:
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - paragraph [ref=e219]: "Tests : 3 Included"
+              - generic [ref=e220]:
+                - img [ref=e221]
+                - generic [ref=e222]: Mr. Yoda’s Club
+                - paragraph [ref=e223]:
+                  - text: "Member Price :"
+                  - generic [ref=e224]: ₹585
+              - generic [ref=e225]:
+                - paragraph [ref=e227]: ₹650
+                - generic [ref=e228]:
+                  - button [ref=e229] [cursor=pointer]: View
+                  - button [ref=e230] [cursor=pointer]: Add to cart
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - heading [level=4] [ref=e235]: Prediabetic Check Up
+              - paragraph [ref=e237]:
+                - text: 10%
+                - generic [ref=e238]: "OFF"
+            - generic [ref=e239]:
+              - generic [ref=e241]:
+                - img [ref=e242]
+                - paragraph [ref=e245]: "Tests : 45 Included"
+              - generic [ref=e246]:
+                - img [ref=e247]
+                - generic [ref=e248]: Mr. Yoda’s Club
+                - paragraph [ref=e249]:
+                  - text: "Member Price :"
+                  - generic [ref=e250]: ₹4,050
+              - generic [ref=e251]:
+                - generic [ref=e252]:
+                  - paragraph [ref=e253]: ₹5,000
+                  - paragraph [ref=e254]: ₹4,500
+                - generic [ref=e255]:
+                  - button [ref=e256] [cursor=pointer]: View
+                  - button [ref=e257] [cursor=pointer]: Add to cart
+          - generic [ref=e260]:
+            - heading [level=4] [ref=e262]: Cardiac Risk Profile 1
+            - generic [ref=e263]:
+              - generic [ref=e265]:
+                - img [ref=e266]
+                - paragraph [ref=e269]: "Tests : 7 Included"
+              - generic [ref=e270]:
+                - img [ref=e271]
+                - generic [ref=e272]: Mr. Yoda’s Club
+                - paragraph [ref=e273]:
+                  - text: "Member Price :"
+                  - generic [ref=e274]: ₹3,600
+              - generic [ref=e275]:
+                - paragraph [ref=e277]: ₹4,000
+                - generic [ref=e278]:
+                  - button [ref=e279] [cursor=pointer]: View
+                  - button [ref=e280] [cursor=pointer]: Add to cart
+          - generic [ref=e283]:
+            - heading [level=4] [ref=e285]: Anemia Panel
+            - generic [ref=e286]:
+              - generic [ref=e288]:
+                - img [ref=e289]
+                - paragraph [ref=e292]: "Tests : 4 Included"
+              - generic [ref=e293]:
+                - img [ref=e294]
+                - generic [ref=e295]: Mr. Yoda’s Club
+                - paragraph [ref=e296]:
+                  - text: "Member Price :"
+                  - generic [ref=e297]: ₹2,250
+              - generic [ref=e298]:
+                - paragraph [ref=e300]: ₹2,500
+                - generic [ref=e301]:
+                  - button [ref=e302] [cursor=pointer]: View
+                  - button [ref=e303] [cursor=pointer]: Add to cart
+          - generic [ref=e306]:
+            - heading [level=4] [ref=e308]: Allergic Bronchopulmonary Aspergillosis (ABPA) Panel
+            - generic [ref=e309]:
+              - generic [ref=e311]:
+                - img [ref=e312]
+                - paragraph [ref=e315]: "Tests : 3 Included"
+              - generic [ref=e316]:
+                - img [ref=e317]
+                - generic [ref=e318]: Mr. Yoda’s Club
+                - paragraph [ref=e319]:
+                  - text: "Member Price :"
+                  - generic [ref=e320]: ₹1,980
+              - generic [ref=e321]:
+                - paragraph [ref=e323]: ₹2,200
+                - generic [ref=e324]:
+                  - button [ref=e325] [cursor=pointer]: View
+                  - button [ref=e326] [cursor=pointer]: Add to cart
+          - generic [ref=e329]:
+            - heading [level=4] [ref=e331]: Arthritis Profile
+            - generic [ref=e332]:
+              - generic [ref=e334]:
+                - img [ref=e335]
+                - paragraph [ref=e338]: "Tests : 10 Included"
+              - generic [ref=e339]:
+                - img [ref=e340]
+                - generic [ref=e341]: Mr. Yoda’s Club
+                - paragraph [ref=e342]:
+                  - text: "Member Price :"
+                  - generic [ref=e343]: ₹4,500
+              - generic [ref=e344]:
+                - paragraph [ref=e346]: ₹5,000
+                - generic [ref=e347]:
+                  - button [ref=e348] [cursor=pointer]: View
+                  - button [ref=e349] [cursor=pointer]: Add to cart
+          - generic [ref=e352]:
+            - heading [level=4] [ref=e354]: NBS 51 Disorders
+            - generic [ref=e355]:
+              - generic [ref=e357]:
+                - img [ref=e358]
+                - paragraph [ref=e361]: "Tests : 2 Included"
+              - generic [ref=e362]:
+                - img [ref=e363]
+                - generic [ref=e364]: Mr. Yoda’s Club
+                - paragraph [ref=e365]:
+                  - text: "Member Price :"
+                  - generic [ref=e366]: ₹3,150
+              - generic [ref=e367]:
+                - paragraph [ref=e369]: ₹3,500
+                - generic [ref=e370]:
+                  - button [ref=e371] [cursor=pointer]: View
+                  - button [ref=e372] [cursor=pointer]: Add to cart
+          - generic [ref=e375]:
+            - heading [level=4] [ref=e377]: NBS 53 Disorders
+            - generic [ref=e378]:
+              - generic [ref=e380]:
+                - img [ref=e381]
+                - paragraph [ref=e384]: "Tests : 2 Included"
+              - generic [ref=e385]:
+                - img [ref=e386]
+                - generic [ref=e387]: Mr. Yoda’s Club
+                - paragraph [ref=e388]:
+                  - text: "Member Price :"
+                  - generic [ref=e389]: ₹3,600
+              - generic [ref=e390]:
+                - paragraph [ref=e392]: ₹4,000
+                - generic [ref=e393]:
+                  - button [ref=e394] [cursor=pointer]: View
+                  - button [ref=e395] [cursor=pointer]: Add to cart
+          - generic [ref=e398]:
+            - heading [level=4] [ref=e400]: NBS 55 Disorders
+            - generic [ref=e401]:
+              - generic [ref=e403]:
+                - img [ref=e404]
+                - paragraph [ref=e407]: "Tests : 2 Included"
+              - generic [ref=e408]:
+                - img [ref=e409]
+                - generic [ref=e410]: Mr. Yoda’s Club
+                - paragraph [ref=e411]:
+                  - text: "Member Price :"
+                  - generic [ref=e412]: ₹4,050
+              - generic [ref=e413]:
+                - paragraph [ref=e415]: ₹4,500
+                - generic [ref=e416]:
+                  - button [ref=e417] [cursor=pointer]: View
+                  - button [ref=e418] [cursor=pointer]: Add to cart
+          - generic [ref=e421]:
+            - heading [level=4] [ref=e423]: PCOD Profile -1
+            - generic [ref=e424]:
+              - generic [ref=e426]:
+                - img [ref=e427]
+                - paragraph [ref=e430]: "Tests : 11 Included"
+              - generic [ref=e431]:
+                - img [ref=e432]
+                - generic [ref=e433]: Mr. Yoda’s Club
+                - paragraph [ref=e434]:
+                  - text: "Member Price :"
+                  - generic [ref=e435]: ₹5,400
+              - generic [ref=e436]:
+                - paragraph [ref=e438]: ₹6,000
+                - generic [ref=e439]:
+                  - button [ref=e440] [cursor=pointer]: View
+                  - button [ref=e441] [cursor=pointer]: Add to cart
+          - generic [ref=e444]:
+            - heading [level=4] [ref=e446]: Phospholipid Basic Panel
+            - generic [ref=e447]:
+              - generic [ref=e449]:
+                - img [ref=e450]
+                - paragraph [ref=e453]: "Tests : 5 Included"
+              - generic [ref=e454]:
+                - img [ref=e455]
+                - generic [ref=e456]: Mr. Yoda’s Club
+                - paragraph [ref=e457]:
+                  - text: "Member Price :"
+                  - generic [ref=e458]: ₹8,100
+              - generic [ref=e459]:
+                - paragraph [ref=e461]: ₹9,000
+                - generic [ref=e462]:
+                  - button [ref=e463] [cursor=pointer]: View
+                  - button [ref=e464] [cursor=pointer]: Add to cart
+          - generic [ref=e467]:
+            - heading [level=4] [ref=e469]: Pregnancy Well-Being Panel
+            - generic [ref=e470]:
+              - generic [ref=e472]:
+                - img [ref=e473]
+                - paragraph [ref=e476]: "Tests : 10 Included"
+              - generic [ref=e477]:
+                - img [ref=e478]
+                - generic [ref=e479]: Mr. Yoda’s Club
+                - paragraph [ref=e480]:
+                  - text: "Member Price :"
+                  - generic [ref=e481]: ₹8,100
+              - generic [ref=e482]:
+                - paragraph [ref=e484]: ₹9,000
+                - generic [ref=e485]:
+                  - button [ref=e486] [cursor=pointer]: View
+                  - button [ref=e487] [cursor=pointer]: Add to cart
+          - generic [ref=e490]:
+            - heading [level=4] [ref=e492]: Rheumatoid Profile
+            - generic [ref=e493]:
+              - generic [ref=e495]:
+                - img [ref=e496]
+                - paragraph [ref=e499]: "Tests : 8 Included"
+              - generic [ref=e500]:
+                - img [ref=e501]
+                - generic [ref=e502]: Mr. Yoda’s Club
+                - paragraph [ref=e503]:
+                  - text: "Member Price :"
+                  - generic [ref=e504]: ₹4,050
+              - generic [ref=e505]:
+                - paragraph [ref=e507]: ₹4,500
+                - generic [ref=e508]:
+                  - button [ref=e509] [cursor=pointer]: View
+                  - button [ref=e510] [cursor=pointer]: Add to cart
+          - generic [ref=e513]:
+            - heading [level=4] [ref=e515]: Senior Citizen Health (Men & Women) Panel
+            - generic [ref=e516]:
+              - generic [ref=e518]:
+                - img [ref=e519]
+                - paragraph [ref=e522]: "Tests : 28 Included"
+              - generic [ref=e523]:
+                - img [ref=e524]
+                - generic [ref=e525]: Mr. Yoda’s Club
+                - paragraph [ref=e526]:
+                  - text: "Member Price :"
+                  - generic [ref=e527]: ₹4,950
+              - generic [ref=e528]:
+                - paragraph [ref=e530]: ₹5,500
+                - generic [ref=e531]:
+                  - button [ref=e532] [cursor=pointer]: View
+                  - button [ref=e533] [cursor=pointer]: Add to cart
+          - generic [ref=e536]:
+            - heading [level=4] [ref=e538]: Thrombotic Panel
+            - generic [ref=e539]:
+              - generic [ref=e541]:
+                - img [ref=e542]
+                - paragraph [ref=e545]: "Tests : 11 Included"
+              - generic [ref=e546]:
+                - img [ref=e547]
+                - generic [ref=e548]: Mr. Yoda’s Club
+                - paragraph [ref=e549]:
+                  - text: "Member Price :"
+                  - generic [ref=e550]: ₹34,000
+              - generic [ref=e551]:
+                - paragraph [ref=e553]: ₹35,000
+                - generic [ref=e554]:
+                  - button [ref=e555] [cursor=pointer]: View
+                  - button [ref=e556] [cursor=pointer]: Add to cart
+          - generic [ref=e559]:
+            - generic [ref=e560]:
+              - heading [level=4] [ref=e561]: Yoda Senior Citizen Male
+              - paragraph [ref=e563]:
+                - text: 2%
+                - generic [ref=e564]: "OFF"
+            - generic [ref=e565]:
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - img [ref=e568]
+                  - paragraph [ref=e571]: "Tests : 19 Included"
+                - generic [ref=e572]:
+                  - img [ref=e573]
+                  - paragraph [ref=e576]: "Reports within : 2 Days"
+              - generic [ref=e577]:
+                - img [ref=e578]
+                - generic [ref=e579]: Mr. Yoda’s Club
+                - paragraph [ref=e580]:
+                  - text: "Member Price :"
+                  - generic [ref=e581]: ₹5,850
+              - generic [ref=e582]:
+                - generic [ref=e583]:
+                  - paragraph [ref=e584]: ₹6,700
+                  - paragraph [ref=e585]: ₹6,500
+                - generic [ref=e586]:
+                  - button [ref=e587] [cursor=pointer]: View
+                  - button [ref=e588] [cursor=pointer]: Add to cart
+          - generic [ref=e591]:
+            - heading [level=4] [ref=e593]: Yoda Womens Check Up
+            - generic [ref=e594]:
+              - generic [ref=e596]:
+                - img [ref=e597]
+                - paragraph [ref=e600]: "Tests : 16 Included"
+              - generic [ref=e601]:
+                - paragraph [ref=e603]: ₹NaN
+                - generic [ref=e604]:
+                  - button [ref=e605] [cursor=pointer]: View
+                  - button [ref=e606] [cursor=pointer]: Add to cart
+      - generic [ref=e610]:
+        - generic [ref=e611]:
+          - heading [level=3] [ref=e612]: Smart Choices
+          - paragraph [ref=e614] [cursor=pointer]: View All
+        - generic [ref=e615]:
+          - generic [ref=e616]:
+            - button [ref=e617] [cursor=pointer]: Full Body Checkup
+            - button [ref=e618] [cursor=pointer]: Fever
+            - button [ref=e619] [cursor=pointer]: Diabetes
+            - button [ref=e620] [cursor=pointer]: Vitamins
+            - button [ref=e621] [cursor=pointer]: Thyroid
+            - button [ref=e622] [cursor=pointer]: Pregnancy
+          - generic [ref=e625]:
+            - generic [ref=e628]:
+              - generic [ref=e629]:
+                - heading [level=4] [ref=e630]: Fullbodychecup
+                - paragraph [ref=e632]:
+                  - text: 3%
+                  - generic [ref=e633]: "OFF"
+              - generic [ref=e634]:
+                - generic [ref=e635]:
+                  - generic [ref=e636]:
+                    - img [ref=e637]
+                    - paragraph [ref=e640]: "Tests : 5 Included"
+                  - generic [ref=e641]:
+                    - img [ref=e642]
+                    - paragraph [ref=e645]: "Reports within : 7 days"
+                - generic [ref=e646]:
+                  - img [ref=e647]
+                  - generic [ref=e648]: Mr. Yoda’s Club
+                  - paragraph [ref=e649]:
+                    - text: "Member Price :"
+                    - generic [ref=e650]: ₹5,220
+                - generic [ref=e651]:
+                  - generic [ref=e652]:
+                    - paragraph [ref=e653]: ₹6,000
+                    - paragraph [ref=e654]: ₹5,800
+                  - generic [ref=e655]:
+                    - button [ref=e656] [cursor=pointer]: View
+                    - button [ref=e657] [cursor=pointer]: Add to cart
+            - generic [ref=e660]:
+              - heading [level=4] [ref=e662]: Pyrexia Panel
+              - generic [ref=e663]:
+                - generic [ref=e665]:
+                  - img [ref=e666]
+                  - paragraph [ref=e669]: "Tests : 10 Included"
+                - generic [ref=e670]:
+                  - img [ref=e671]
+                  - generic [ref=e672]: Mr. Yoda’s Club
+                  - paragraph [ref=e673]:
+                    - text: "Member Price :"
+                    - generic [ref=e674]: ₹4,500
+                - generic [ref=e675]:
+                  - paragraph [ref=e677]: ₹5,000
+                  - generic [ref=e678]:
+                    - button [ref=e679] [cursor=pointer]: View
+                    - button [ref=e680] [cursor=pointer]: Add to cart
+      - generic [ref=e681]:
+        - img [ref=e683] [cursor=pointer]
+        - generic [ref=e687]:
+          - generic [ref=e689] [cursor=pointer]:
+            - generic [ref=e691]:
+              - paragraph [ref=e692]: Health Screening Tests
+              - paragraph [ref=e693]: Quick checks for wellness
+            - img [ref=e694]
+          - generic [ref=e697] [cursor=pointer]:
+            - generic [ref=e699]:
+              - paragraph [ref=e700]: Diagnostic Imaging
+              - paragraph [ref=e701]: Visualizing health inside you
+            - img [ref=e702]
+          - generic [ref=e705] [cursor=pointer]:
+            - generic [ref=e707]:
+              - paragraph [ref=e708]: MedMatch
+              - paragraph [ref=e709]: Safe med that fits you
+            - img [ref=e710]
+          - generic [ref=e713] [cursor=pointer]:
+            - generic [ref=e715]:
+              - paragraph [ref=e716]: Advanced Fetal Screening
+              - paragraph [ref=e717]: Ensuring safe pregnancy outcomes
+            - img [ref=e718]
+        - img [ref=e731]
+      - generic [ref=e732]:
+        - article [ref=e734]:
+          - generic [ref=e735]:
+            - heading [level=3] [ref=e736]: DNA Decoder Panels at a Glance
+            - paragraph [ref=e738] [cursor=pointer]: View All
+          - generic [ref=e742]:
+            - generic [ref=e745] [cursor=pointer]:
+              - img [ref=e747]
+              - heading [level=3] [ref=e749]: Testing Test Who
+            - generic [ref=e752] [cursor=pointer]:
+              - img [ref=e754]
+              - generic [ref=e755]:
+                - heading [level=3] [ref=e756]: Widal Test (Tube e76)
+                - paragraph [ref=e757]: tested
+            - generic [ref=e760] [cursor=pointer]:
+              - img [ref=e762]
+              - heading [level=3] [ref=e764]: testest12302
+            - generic [ref=e767] [cursor=pointer]:
+              - img [ref=e769]
+              - heading [level=3] [ref=e771]: Postnatal Genetic Panel (Sishu samraksha)
+            - generic [ref=e774] [cursor=pointer]:
+              - img [ref=e776]
+              - heading [level=3] [ref=e778]: Endometritis Diagnostic Panel (Advanced)
+            - generic [ref=e781] [cursor=pointer]:
+              - img [ref=e783]
+              - heading [level=3] [ref=e785]: Endometritis Diagnostic Panel (Essential)
+            - generic [ref=e788] [cursor=pointer]:
+              - img [ref=e790]
+              - heading [level=3] [ref=e792]: Endometritis Diagnostic Panel
+            - generic [ref=e795] [cursor=pointer]:
+              - img [ref=e797]
+              - heading [level=3] [ref=e799]: Folate Receptor Autoan bodies Test (FRAT)
+            - generic [ref=e802] [cursor=pointer]:
+              - img [ref=e804]
+              - heading [level=3] [ref=e806]: Comprehensive Rheumatology Panel
+            - generic [ref=e809] [cursor=pointer]:
+              - img [ref=e811]
+              - heading [level=3] [ref=e813]: "Sports Genomics: Physical Endurance Genetic Test"
+            - generic [ref=e816] [cursor=pointer]:
+              - img [ref=e818]
+              - heading [level=3] [ref=e820]: Autism Comprehensive Metabolic Panel
+            - generic [ref=e823] [cursor=pointer]:
+              - img [ref=e825]
+              - heading [level=3] [ref=e827]: DNA Decoder - Nephrology Panel
+            - generic [ref=e830] [cursor=pointer]:
+              - img [ref=e832]
+              - heading [level=3] [ref=e834]: DNA Decoder - Cardiovascular Panel
+            - generic [ref=e837] [cursor=pointer]:
+              - img [ref=e839]
+              - heading [level=3] [ref=e841]: DNA Decoder - Cancer Genetics
+            - generic [ref=e844] [cursor=pointer]:
+              - img [ref=e846]
+              - heading [level=3] [ref=e848]: Postnatal Genetic Panel
+            - generic [ref=e851] [cursor=pointer]:
+              - img [ref=e853]
+              - heading [level=3] [ref=e855]: Comprehensive Neurology Panel
+            - generic [ref=e858] [cursor=pointer]:
+              - img [ref=e860]
+              - heading [level=3] [ref=e862]: Premarital Genetic Panel
+            - generic [ref=e865] [cursor=pointer]:
+              - img [ref=e867]
+              - heading [level=3] [ref=e869]: Prenatal Genetic Panel
+            - generic [ref=e872] [cursor=pointer]:
+              - img [ref=e874]
+              - heading [level=3] [ref=e876]: Postnatal Genetic Panel (Sishu samraksha + whole exome+ CMA 750K)
+            - generic [ref=e879] [cursor=pointer]:
+              - img [ref=e881]
+              - heading [level=3] [ref=e883]: Preconception Genetic Panel
+        - img [ref=e888] [cursor=pointer]
+      - generic [ref=e889]:
+        - generic [ref=e892]:
+          - generic [ref=e894]:
+            - generic [ref=e895]:
+              - heading [level=3] [ref=e896]: Drug Alternatives
+              - paragraph [ref=e897]: Find meds that work better with fewer risks
+            - img [ref=e899] [cursor=pointer]
+          - generic [ref=e904]:
+            - generic [ref=e905]:
+              - heading [level=3] [ref=e906]: Drug Interactions
+              - paragraph [ref=e907]: Evaluate risks of taking drugs together
+            - img [ref=e909] [cursor=pointer]
+          - generic [ref=e914]:
+            - generic [ref=e915]:
+              - heading [level=3] [ref=e916]: Food Interactions
+              - paragraph [ref=e917]: Check how diet influences medication outcomes
+            - img [ref=e919] [cursor=pointer]
+        - generic [ref=e923]:
+          - generic [ref=e924]:
+            - heading [level=3] [ref=e926]: Highly Recommended MedMatch Tests
+            - paragraph [ref=e928] [cursor=pointer]: View All
+          - generic [ref=e932]:
+            - generic [ref=e935]:
+              - generic [ref=e936]:
+                - heading [level=4] [ref=e938]: Statins ( Slc01B1)
+                - paragraph [ref=e942]: Predicting risk for statin-associated myopathy in patients beginning statin therapy, especially simvastatin therapy Determining a potential statin lipid lowering response, especially when using pravastatin
+              - generic [ref=e944]:
+                - generic [ref=e948]:
+                  - img [ref=e949]
+                  - generic [ref=e952]: "Reports within : 7- 10 Days"
+                - generic [ref=e955]:
+                  - img [ref=e956]
+                  - generic [ref=e957]: Mr. Yoda’s Club
+                  - paragraph [ref=e958]:
+                    - text: "Member Price :"
+                    - generic [ref=e959]: ₹6,750
+                - generic [ref=e960]:
+                  - paragraph [ref=e962]:
+                    - img [ref=e964]
+                    - text: 7,500
+                  - generic [ref=e966]:
+                    - button [ref=e967] [cursor=pointer]: View
+                    - button [ref=e968] [cursor=pointer]: Add to Cart
+            - generic [ref=e971]:
+              - generic [ref=e972]:
+                - heading [level=4] [ref=e974]: Aspirin Genotype
+                - paragraph [ref=e978]: Aspirin which inhibits platelet cyclo-oxygenase reduces the risk of thrombosis in cardiovascular disease by impairing platelet function. Patients who do not respond to the platelet inhibitory effects of aspirin are designated as "ASPIRIN RESISTANT".
+              - generic [ref=e980]:
+                - generic [ref=e984]:
+                  - img [ref=e985]
+                  - generic [ref=e988]: "Reports within : 7- 10 Days"
+                - generic [ref=e991]:
+                  - img [ref=e992]
+                  - generic [ref=e993]: Mr. Yoda’s Club
+                  - paragraph [ref=e994]:
+                    - text: "Member Price :"
+                    - generic [ref=e995]: ₹6,750
+                - generic [ref=e996]:
+                  - paragraph [ref=e998]:
+                    - img [ref=e1000]
+                    - text: 7,500
+                  - generic [ref=e1002]:
+                    - button [ref=e1003] [cursor=pointer]: View
+                    - button [ref=e1004] [cursor=pointer]: Add to Cart
+            - generic [ref=e1007]:
+              - generic [ref=e1008]:
+                - heading [level=4] [ref=e1010]: Tacrolimus - Pharmacogenomics
+                - paragraph [ref=e1014]: The association between the CYP3A5 genotype and tacrolimus pharmacokinetics is well established, and patients expressing functional CYP3A5 (carriers of the CYP3A5*1 allele; extensive metabolizer), require approximately double the starting drug dose. Carriers of CYP3A5*3/*3 or poor metabolizer require higher doses.
+              - generic [ref=e1016]:
+                - generic [ref=e1020]:
+                  - img [ref=e1021]
+                  - generic [ref=e1024]: "Reports within : 7- 10 Days"
+                - generic [ref=e1027]:
+                  - img [ref=e1028]
+                  - generic [ref=e1029]: Mr. Yoda’s Club
+                  - paragraph [ref=e1030]:
+                    - text: "Member Price :"
+                    - generic [ref=e1031]: ₹6,750
+                - generic [ref=e1032]:
+                  - paragraph [ref=e1034]:
+                    - img [ref=e1036]
+                    - text: 7,500
+                  - generic [ref=e1038]:
+                    - button [ref=e1039] [cursor=pointer]: View
+                    - button [ref=e1040] [cursor=pointer]: Add to Cart
+            - generic [ref=e1043]:
+              - generic [ref=e1044]:
+                - heading [level=4] [ref=e1046]: 6-Mercaptopurine
+                - paragraph [ref=e1050]: The drugs 6-mercaptopurine (6-MP) and AZA are members of the thiopurine class of medications and are commonly used to treat patients with Crohnâ€™s disease and ulcerative colitis who are steroid dependent, in an attempt to withdraw steroids and maintain patients in remission off steroids
+              - generic [ref=e1052]:
+                - generic [ref=e1056]:
+                  - img [ref=e1057]
+                  - generic [ref=e1060]: "Reports within : 7- 10 Days"
+                - generic [ref=e1063]:
+                  - img [ref=e1064]
+                  - generic [ref=e1065]: Mr. Yoda’s Club
+                  - paragraph [ref=e1066]:
+                    - text: "Member Price :"
+                    - generic [ref=e1067]: ₹7,200
+                - generic [ref=e1068]:
+                  - paragraph [ref=e1070]:
+                    - img [ref=e1072]
+                    - text: 8,000
+                  - generic [ref=e1074]:
+                    - button [ref=e1075] [cursor=pointer]: View
+                    - button [ref=e1076] [cursor=pointer]: Add to Cart
+            - generic [ref=e1079]:
+              - generic [ref=e1080]:
+                - heading [level=4] [ref=e1082]: Clopidogrel/Prasugrel/Ticagrelor
+                - paragraph [ref=e1086]: Clopidogrel CYP2C19 Genotyping is used as a pharmacogenetic non-lipid marker of heart disease. Clopidogrel drug is an anti-platelet medication used to reduce the risk of heart disease & stroke. Individuals on this drug can be normal, intermediate, poor or ultra-rapid metabolizers. Genotyping helps to adjust the dose or consider alternative treatments.
+              - generic [ref=e1088]:
+                - generic [ref=e1092]:
+                  - img [ref=e1093]
+                  - generic [ref=e1096]: "Reports within : 7- 10 Days"
+                - generic [ref=e1099]:
+                  - img [ref=e1100]
+                  - generic [ref=e1101]: Mr. Yoda’s Club
+                  - paragraph [ref=e1102]:
+                    - text: "Member Price :"
+                    - generic [ref=e1103]: ₹8,100
+                - generic [ref=e1104]:
+                  - paragraph [ref=e1106]:
+                    - img [ref=e1108]
+                    - text: 9,000
+                  - generic [ref=e1110]:
+                    - button [ref=e1111] [cursor=pointer]: View
+                    - button [ref=e1112] [cursor=pointer]: Add to Cart
+            - generic [ref=e1115]:
+              - generic [ref=e1116]:
+                - heading [level=4] [ref=e1118]: Warfarin/ Acitrom Pgx
+                - paragraph [ref=e1122]: This test is used for assessing CYP2C9, VKORC1, CYP4F2, GGCX and rs12777823 for variants affecting the metabolism of warfarin (Coumadin). This assay should be ordered on patients who are receiving warfarin for the first time or who are experiencing difficulties in maintaining the international normalized ratio (INR) in the therapeutic range.
+              - generic [ref=e1124]:
+                - generic [ref=e1128]:
+                  - img [ref=e1129]
+                  - generic [ref=e1132]: "Reports within : 7- 10 Days"
+                - generic [ref=e1135]:
+                  - img [ref=e1136]
+                  - generic [ref=e1137]: Mr. Yoda’s Club
+                  - paragraph [ref=e1138]:
+                    - text: "Member Price :"
+                    - generic [ref=e1139]: ₹9,000
+                - generic [ref=e1140]:
+                  - paragraph [ref=e1142]:
+                    - img [ref=e1144]
+                    - text: 10,000
+                  - generic [ref=e1146]:
+                    - button [ref=e1147] [cursor=pointer]: View
+                    - button [ref=e1148] [cursor=pointer]: Add to Cart
+            - generic [ref=e1151]:
+              - generic [ref=e1152]:
+                - heading [level=4] [ref=e1154]: 5-Fluoro Uracil/Capectabine
+                - paragraph [ref=e1158]: Identifying individuals at increased risk of toxicity when considering 5-fluorouracil and capecitabine chemotherapy treatment May be useful in identifying variants associated with decreased or absent dihydropyrimidine dehydrogenase enzyme activity for an individual with this deficiency suspected
+              - generic [ref=e1160]:
+                - generic [ref=e1164]:
+                  - img [ref=e1165]
+                  - generic [ref=e1168]: "Reports within : 7- 10 Days"
+                - generic [ref=e1171]:
+                  - img [ref=e1172]
+                  - generic [ref=e1173]: Mr. Yoda’s Club
+                  - paragraph [ref=e1174]:
+                    - text: "Member Price :"
+                    - generic [ref=e1175]: ₹9,000
+                - generic [ref=e1176]:
+                  - paragraph [ref=e1178]:
+                    - img [ref=e1180]
+                    - text: 10,000
+                  - generic [ref=e1182]:
+                    - button [ref=e1183] [cursor=pointer]: View
+                    - button [ref=e1184] [cursor=pointer]: Add to Cart
+            - generic [ref=e1187]:
+              - generic [ref=e1188]:
+                - heading [level=4] [ref=e1190]: Rivaroxaban Pgx
+                - paragraph [ref=e1194]: Rivaroxaban is used to treat deep vein thrombosis (DVT; a blood clot, usually in the leg) and pulmonary embolism (PE; a blood clot in the lung) in adults. Rivaroxaban is also used to prevent DVT and PE from happening again after initial treatment is completed in adults.
+              - generic [ref=e1196]:
+                - generic [ref=e1200]:
+                  - img [ref=e1201]
+                  - generic [ref=e1204]: "Reports within : 7 - 10 DAYS"
+                - generic [ref=e1207]:
+                  - img [ref=e1208]
+                  - generic [ref=e1209]: Mr. Yoda’s Club
+                  - paragraph [ref=e1210]:
+                    - text: "Member Price :"
+                    - generic [ref=e1211]: ₹11,000
+                - generic [ref=e1212]:
+                  - paragraph [ref=e1214]:
+                    - img [ref=e1216]
+                    - text: 12,000
+                  - generic [ref=e1218]:
+                    - button [ref=e1219] [cursor=pointer]: View
+                    - button [ref=e1220] [cursor=pointer]: Add to Cart
+            - generic [ref=e1223]:
+              - generic [ref=e1224]:
+                - heading [level=4] [ref=e1226]: Diabetes Pgx
+                - paragraph [ref=e1230]: Pharmacogenomics is also known as pharmacogenetics or PGx uses your genetics to help predict the way you will react to a drug. It combines the sciences of pharmacology (study of drugs) and genetics (study of DNA).
+              - generic [ref=e1232]:
+                - generic [ref=e1236]:
+                  - img [ref=e1237]
+                  - generic [ref=e1240]: "Reports within : 7- 10 Days"
+                - generic [ref=e1243]:
+                  - img [ref=e1244]
+                  - generic [ref=e1245]: Mr. Yoda’s Club
+                  - paragraph [ref=e1246]:
+                    - text: "Member Price :"
+                    - generic [ref=e1247]: ₹12,000
+                - generic [ref=e1248]:
+                  - paragraph [ref=e1250]:
+                    - img [ref=e1252]
+                    - text: 13,000
+                  - generic [ref=e1254]:
+                    - button [ref=e1255] [cursor=pointer]: View
+                    - button [ref=e1256] [cursor=pointer]: Add to Cart
+            - generic [ref=e1259]:
+              - generic [ref=e1260]:
+                - heading [level=4] [ref=e1262]: Diabetes & Cardiovascular Pgx
+                - paragraph [ref=e1266]: Pharmacogenomics is also known as pharmacogenetics or PGx uses your genetics to help predict the way you will react to a drug. It combines the sciences of pharmacology (study of drugs) and genetics (study of DNA).
+              - generic [ref=e1268]:
+                - generic [ref=e1272]:
+                  - img [ref=e1273]
+                  - generic [ref=e1276]: "Reports within : 2 - 3 Weeks"
+                - generic [ref=e1279]:
+                  - img [ref=e1280]
+                  - generic [ref=e1281]: Mr. Yoda’s Club
+                  - paragraph [ref=e1282]:
+                    - text: "Member Price :"
+                    - generic [ref=e1283]: ₹14,000
+                - generic [ref=e1284]:
+                  - paragraph [ref=e1286]:
+                    - img [ref=e1288]
+                    - text: 15,000
+                  - generic [ref=e1290]:
+                    - button [ref=e1291] [cursor=pointer]: View
+                    - button [ref=e1292] [cursor=pointer]: Add to Cart
+            - generic [ref=e1295]:
+              - generic [ref=e1296]:
+                - heading [level=4] [ref=e1298]: Antipsychotic Pgx
+                - paragraph [ref=e1302]: Pharmacogenomics â€” also known as pharmacogenetics or PGx â€” uses your genetics to help predict the way you will react to a drug. It combines the sciences of pharmacology (study of drugs) and genetics (study of DNA).
+              - generic [ref=e1304]:
+                - generic [ref=e1308]:
+                  - img [ref=e1309]
+                  - generic [ref=e1312]: "Reports within : 7- 10 Days"
+                - generic [ref=e1315]:
+                  - img [ref=e1316]
+                  - generic [ref=e1317]: Mr. Yoda’s Club
+                  - paragraph [ref=e1318]:
+                    - text: "Member Price :"
+                    - generic [ref=e1319]: ₹17,000
+                - generic [ref=e1320]:
+                  - paragraph [ref=e1322]:
+                    - img [ref=e1324]
+                    - text: 18,000
+                  - generic [ref=e1326]:
+                    - button [ref=e1327] [cursor=pointer]: View
+                    - button [ref=e1328] [cursor=pointer]: Add to Cart
+            - generic [ref=e1331]:
+              - generic [ref=e1332]:
+                - heading [level=4] [ref=e1334]: Antiepileptic Pgx
+                - paragraph [ref=e1338]: Pharmacogenomics â€” also known as pharmacogenetics or PGx â€” uses your genetics to help predict the way you will react to a drug. It combines the sciences of pharmacology (study of drugs) and genetics (study of DNA).
+              - generic [ref=e1340]:
+                - generic [ref=e1344]:
+                  - img [ref=e1345]
+                  - generic [ref=e1348]: "Reports within : 7- 10 Days"
+                - generic [ref=e1351]:
+                  - img [ref=e1352]
+                  - generic [ref=e1353]: Mr. Yoda’s Club
+                  - paragraph [ref=e1354]:
+                    - text: "Member Price :"
+                    - generic [ref=e1355]: ₹17,000
+                - generic [ref=e1356]:
+                  - paragraph [ref=e1358]:
+                    - img [ref=e1360]
+                    - text: 18,000
+                  - generic [ref=e1362]:
+                    - button [ref=e1363] [cursor=pointer]: View
+                    - button [ref=e1364] [cursor=pointer]: Add to Cart
+            - generic [ref=e1367]:
+              - generic [ref=e1368]:
+                - heading [level=4] [ref=e1370]: Comprehensive Pgx
+                - paragraph [ref=e1374]: This panel provides a comprehensive analysis for multiple genes with strong drug phenotype associations. Each sample is tested for specific variations with known functional impact.Based on the results of each assay, a genotype is assigned, and a phenotype is predicted for each gene. Assessment of multiple genes may assist the ordering clinician with personalized drug recommendations, avoidance of adverse drug reactions, and optimization of drug treatment.
+              - generic [ref=e1376]:
+                - generic [ref=e1380]:
+                  - img [ref=e1381]
+                  - generic [ref=e1384]: "Reports within : 2 - 3 Weeks"
+                - generic [ref=e1387]:
+                  - img [ref=e1388]
+                  - generic [ref=e1389]: Mr. Yoda’s Club
+                  - paragraph [ref=e1390]:
+                    - text: "Member Price :"
+                    - generic [ref=e1391]: ₹24,000
+                - generic [ref=e1392]:
+                  - paragraph [ref=e1394]:
+                    - img [ref=e1396]
+                    - text: 25,000
+                  - generic [ref=e1398]:
+                    - button [ref=e1399] [cursor=pointer]: View
+                    - button [ref=e1400] [cursor=pointer]: Add to Cart
+      - generic [ref=e1403]:
+        - img [ref=e1405] [cursor=pointer]
+        - generic [ref=e1406]:
+          - generic [ref=e1407]:
+            - heading [level=3] [ref=e1408]: Maternal & Fetal Scans
+            - paragraph [ref=e1410] [cursor=pointer]: View All
+          - generic [ref=e1413]:
+            - generic [ref=e1416]:
+              - heading [level=4] [ref=e1418]: Cervical Length
+              - generic [ref=e1419]:
+                - generic [ref=e1421]:
+                  - img [ref=e1422]
+                  - paragraph [ref=e1425]: "Reports within : 3 hrs"
+                - generic [ref=e1426]:
+                  - img [ref=e1427]
+                  - generic [ref=e1428]: Mr. Yoda’s Club
+                  - paragraph [ref=e1429]:
+                    - text: "Member Price :"
+                    - generic [ref=e1430]: ₹720
+                - generic [ref=e1431]:
+                  - paragraph [ref=e1433]: ₹800
+                  - generic [ref=e1434]:
+                    - button [ref=e1435] [cursor=pointer]: View
+                    - button [ref=e1436] [cursor=pointer]: Add to cart
+            - generic [ref=e1439]:
+              - heading [level=4] [ref=e1441]: Fetal Doppler & Liquor Assessment (Fetal Medicine)
+              - generic [ref=e1442]:
+                - generic [ref=e1444]:
+                  - img [ref=e1445]
+                  - paragraph [ref=e1448]: "Reports within : 3 hrs"
+                - generic [ref=e1449]:
+                  - img [ref=e1450]
+                  - generic [ref=e1451]: Mr. Yoda’s Club
+                  - paragraph [ref=e1452]:
+                    - text: "Member Price :"
+                    - generic [ref=e1453]: ₹720
+                - generic [ref=e1454]:
+                  - paragraph [ref=e1456]: ₹800
+                  - generic [ref=e1457]:
+                    - button [ref=e1458] [cursor=pointer]: View
+                    - button [ref=e1459] [cursor=pointer]: Add to cart
+            - generic [ref=e1462]:
+              - heading [level=4] [ref=e1464]: Test for new fields
+              - generic [ref=e1465]:
+                - generic [ref=e1467]:
+                  - img [ref=e1468]
+                  - paragraph [ref=e1471]: "Reports within : 5 Weeks"
+                - generic [ref=e1472]:
+                  - img [ref=e1473]
+                  - generic [ref=e1474]: Mr. Yoda’s Club
+                  - paragraph [ref=e1475]:
+                    - text: "Member Price :"
+                    - generic [ref=e1476]: ₹899
+                - generic [ref=e1477]:
+                  - generic [ref=e1478]:
+                    - paragraph [ref=e1479]: ₹1,000
+                    - paragraph [ref=e1480]: ₹999
+                  - generic [ref=e1481]:
+                    - button [ref=e1482] [cursor=pointer]: View
+                    - button [ref=e1483] [cursor=pointer]: Add to cart
+            - generic [ref=e1486]:
+              - heading [level=4] [ref=e1488]: Fetal Doppler & Liquor Assesment (Twins)
+              - generic [ref=e1489]:
+                - generic [ref=e1491]:
+                  - img [ref=e1492]
+                  - paragraph [ref=e1495]: "Reports within : 3 hrs"
+                - generic [ref=e1496]:
+                  - img [ref=e1497]
+                  - generic [ref=e1498]: Mr. Yoda’s Club
+                  - paragraph [ref=e1499]:
+                    - text: "Member Price :"
+                    - generic [ref=e1500]: ₹1,080
+                - generic [ref=e1501]:
+                  - paragraph [ref=e1503]: ₹1,200
+                  - generic [ref=e1504]:
+                    - button [ref=e1505] [cursor=pointer]: View
+                    - button [ref=e1506] [cursor=pointer]: Add to cart
+            - generic [ref=e1509]:
+              - heading [level=4] [ref=e1511]: Fetal Doctor Consulation
+              - generic [ref=e1512]:
+                - generic [ref=e1514]:
+                  - img [ref=e1515]
+                  - paragraph [ref=e1518]: "Reports within : 3 hrs"
+                - generic [ref=e1519]:
+                  - img [ref=e1520]
+                  - generic [ref=e1521]: Mr. Yoda’s Club
+                  - paragraph [ref=e1522]:
+                    - text: "Member Price :"
+                    - generic [ref=e1523]: ₹1,080
+                - generic [ref=e1524]:
+                  - paragraph [ref=e1526]: ₹1,200
+                  - generic [ref=e1527]:
+                    - button [ref=e1528] [cursor=pointer]: View
+                    - button [ref=e1529] [cursor=pointer]: Add to cart
+            - generic [ref=e1532]:
+              - heading [level=4] [ref=e1534]: Pelvic Scan (Fetal Medicine)
+              - generic [ref=e1535]:
+                - generic [ref=e1537]:
+                  - img [ref=e1538]
+                  - paragraph [ref=e1541]: "Reports within : 3 hrs"
+                - generic [ref=e1542]:
+                  - img [ref=e1543]
+                  - generic [ref=e1544]: Mr. Yoda’s Club
+                  - paragraph [ref=e1545]:
+                    - text: "Member Price :"
+                    - generic [ref=e1546]: ₹1,350
+                - generic [ref=e1547]:
+                  - paragraph [ref=e1549]: ₹1,500
+                  - generic [ref=e1550]:
+                    - button [ref=e1551] [cursor=pointer]: View
+                    - button [ref=e1552] [cursor=pointer]: Add to cart
+            - generic [ref=e1555]:
+              - heading [level=4] [ref=e1557]: Fetal Doppler & Liquor Assessment (Triplets)
+              - generic [ref=e1558]:
+                - generic [ref=e1560]:
+                  - img [ref=e1561]
+                  - paragraph [ref=e1564]: "Reports within : 3 hrs"
+                - generic [ref=e1565]:
+                  - img [ref=e1566]
+                  - generic [ref=e1567]: Mr. Yoda’s Club
+                  - paragraph [ref=e1568]:
+                    - text: "Member Price :"
+                    - generic [ref=e1569]: ₹1,440
+                - generic [ref=e1570]:
+                  - paragraph [ref=e1572]: ₹1,600
+                  - generic [ref=e1573]:
+                    - button [ref=e1574] [cursor=pointer]: View
+                    - button [ref=e1575] [cursor=pointer]: Add to cart
+            - generic [ref=e1578]:
+              - heading [level=4] [ref=e1580]: Early Pregnancy Scan (Viability)
+              - generic [ref=e1581]:
+                - generic [ref=e1583]:
+                  - img [ref=e1584]
+                  - paragraph [ref=e1587]: "Reports within : 3 hrs"
+                - generic [ref=e1588]:
+                  - img [ref=e1589]
+                  - generic [ref=e1590]: Mr. Yoda’s Club
+                  - paragraph [ref=e1591]:
+                    - text: "Member Price :"
+                    - generic [ref=e1592]: ₹1,485
+                - generic [ref=e1593]:
+                  - paragraph [ref=e1595]: ₹1,650
+                  - generic [ref=e1596]:
+                    - button [ref=e1597] [cursor=pointer]: View
+                    - button [ref=e1598] [cursor=pointer]: Add to cart
+            - generic [ref=e1601]:
+              - heading [level=4] [ref=e1603]: Fetal Doppler & Liquor Assessment (Quadruplets)
+              - generic [ref=e1604]:
+                - generic [ref=e1606]:
+                  - img [ref=e1607]
+                  - paragraph [ref=e1610]: "Reports within : 3 hrs"
+                - generic [ref=e1611]:
+                  - img [ref=e1612]
+                  - generic [ref=e1613]: Mr. Yoda’s Club
+                  - paragraph [ref=e1614]:
+                    - text: "Member Price :"
+                    - generic [ref=e1615]: ₹1,800
+                - generic [ref=e1616]:
+                  - paragraph [ref=e1618]: ₹2,000
+                  - generic [ref=e1619]:
+                    - button [ref=e1620] [cursor=pointer]: View
+                    - button [ref=e1621] [cursor=pointer]: Add to cart
+            - generic [ref=e1624]:
+              - heading [level=4] [ref=e1626]: Growth Scan (Fetal Medicine)
+              - generic [ref=e1627]:
+                - generic [ref=e1629]:
+                  - img [ref=e1630]
+                  - paragraph [ref=e1633]: "Reports within : 3 hrs"
+                - generic [ref=e1634]:
+                  - img [ref=e1635]
+                  - generic [ref=e1636]: Mr. Yoda’s Club
+                  - paragraph [ref=e1637]:
+                    - text: "Member Price :"
+                    - generic [ref=e1638]: ₹2,610
+                - generic [ref=e1639]:
+                  - paragraph [ref=e1641]: ₹2,900
+                  - generic [ref=e1642]:
+                    - button [ref=e1643] [cursor=pointer]: View
+                    - button [ref=e1644] [cursor=pointer]: Add to cart
+      - generic [ref=e1647]:
+        - generic [ref=e1648]:
+          - heading [level=3] [ref=e1649]: Why Patients Love Mr. Yoda
+          - generic [ref=e1654]:
+            - generic [ref=e1655]:
+              - button [ref=e1656] [cursor=pointer]:
+                - generic [ref=e1657]: AI-Powered, Human-First Care
+                - img [ref=e1660]
+              - generic [ref=e1662]: Smart AI makes your reports simple, clear, and actionable - always explained in plain English. Behind it all are trusted doctors and scientists ensuring accuracy and reliability.
+            - button [ref=e1664] [cursor=pointer]:
+              - generic [ref=e1665]: Testing at Your Doorstep
+              - img [ref=e1668]
+            - button [ref=e1670] [cursor=pointer]:
+              - generic [ref=e1671]: Secure, Private, & Transparent
+              - img [ref=e1674]
+            - button [ref=e1676] [cursor=pointer]:
+              - generic [ref=e1677]: With You Anytime, Anywhere
+              - img [ref=e1680]
+        - generic [ref=e1684]:
+          - heading [level=3] [ref=e1685]: Frequently asked questions
+          - generic [ref=e1687]:
+            - heading [level=3] [ref=e1689]:
+              - button [ref=e1690] [cursor=pointer]:
+                - text: What is free home sample collection?
+                - img [ref=e1692]
+            - heading [level=3] [ref=e1695]:
+              - button [ref=e1696] [cursor=pointer]:
+                - text: Is the home collection service really free?
+                - img [ref=e1698]
+            - heading [level=3] [ref=e1701]:
+              - button [ref=e1702] [cursor=pointer]:
+                - text: Which tests can I book with home collection?
+                - img [ref=e1704]
+            - heading [level=3] [ref=e1707]:
+              - button [ref=e1708] [cursor=pointer]:
+                - text: How do I book a home sample collection?
+                - img [ref=e1710]
+            - heading [level=3] [ref=e1713]:
+              - button [ref=e1714] [cursor=pointer]:
+                - text: What time slots are available for home sample collection?
+                - img [ref=e1716]
+            - heading [level=3] [ref=e1719]:
+              - button [ref=e1720] [cursor=pointer]:
+                - text: Who will come to collect my sample?
+                - img [ref=e1722]
+            - heading [level=3] [ref=e1725]:
+              - button [ref=e1726] [cursor=pointer]:
+                - text: Is the sample collection safe and hygienic?
+                - img [ref=e1728]
+            - heading [level=3] [ref=e1731]:
+              - button [ref=e1732] [cursor=pointer]:
+                - text: Can I schedule a same-day collection?
+                - img [ref=e1734]
+            - heading [level=3] [ref=e1737]:
+              - button [ref=e1738] [cursor=pointer]:
+                - text: Can I reschedule my home collection appointment?
+                - img [ref=e1740]
+            - heading [level=3] [ref=e1743]:
+              - button [ref=e1744] [cursor=pointer]:
+                - text: How long does the sample collection take?
+                - img [ref=e1746]
+    - contentinfo [ref=e1749]:
+      - generic [ref=e1751]:
+        - generic [ref=e1752]:
+          - img [ref=e1753]
+          - paragraph [ref=e1754]: India's Health, Reimagined by AI
+        - generic [ref=e1755]:
+          - generic [ref=e1756]:
+            - paragraph [ref=e1758]: Limitless savings with Membership
+            - paragraph [ref=e1759]: At just ₹999 for 365 days!
+          - button [ref=e1760] [cursor=pointer]: Buy now
+      - generic [ref=e1763]:
+        - generic [ref=e1764]:
+          - paragraph [ref=e1766]: About Mr. Yoda
+          - list [ref=e1767]:
+            - listitem [ref=e1768]:
+              - link [ref=e1769] [cursor=pointer]:
+                - /url: /about-us
+                - text: About Us
+            - listitem [ref=e1770]:
+              - link [ref=e1771] [cursor=pointer]:
+                - /url: /contact-us
+                - text: Contact Us
+            - listitem [ref=e1772]:
+              - link [ref=e1773] [cursor=pointer]:
+                - /url: /diagnostics-centers
+                - text: Diagnostics centers
+            - listitem [ref=e1774]:
+              - link [ref=e1775] [cursor=pointer]:
+                - /url: /faq
+                - text: FAQs
+            - listitem [ref=e1776]:
+              - link [ref=e1777] [cursor=pointer]:
+                - /url: /android-app
+                - text: Mr. Yoda Android App
+            - listitem [ref=e1778]:
+              - link [ref=e1779] [cursor=pointer]:
+                - /url: /ios-app
+                - text: Mr. Yoda iOS App
+            - listitem [ref=e1780]:
+              - link [ref=e1781] [cursor=pointer]:
+                - /url: /blog
+                - text: Blogs
+            - listitem [ref=e1782]:
+              - link [ref=e1783] [cursor=pointer]:
+                - /url: /cancellation-policy
+                - text: Cancellation Policy
+        - generic [ref=e1784]:
+          - paragraph [ref=e1786]: Services
+          - list [ref=e1787]:
+            - listitem [ref=e1788] [cursor=pointer]:
+              - paragraph [ref=e1789]: Mr. Yoda Membership
+            - listitem [ref=e1790] [cursor=pointer]:
+              - paragraph [ref=e1791]: Diagnostics
+            - listitem [ref=e1792] [cursor=pointer]:
+              - paragraph [ref=e1793]: DNA Decoder
+            - listitem [ref=e1794] [cursor=pointer]:
+              - paragraph [ref=e1795]: MedMatch
+            - listitem [ref=e1796] [cursor=pointer]:
+              - paragraph [ref=e1797]: Fetal Medicine & Genomics
+        - generic [ref=e1798]:
+          - paragraph [ref=e1800]: Diagnostics
+          - list [ref=e1801]:
+            - listitem [ref=e1802] [cursor=pointer]:
+              - paragraph [ref=e1803]: Health Packages
+            - listitem [ref=e1804] [cursor=pointer]:
+              - paragraph [ref=e1805]: Regular Tests
+            - listitem [ref=e1806] [cursor=pointer]:
+              - paragraph [ref=e1807]: Advanced Tests
+            - listitem [ref=e1808] [cursor=pointer]:
+              - paragraph [ref=e1809]: Speciality Tests
+            - paragraph [ref=e1810] [cursor=pointer]: See more
+        - generic [ref=e1811]:
+          - paragraph [ref=e1813]: DNA Decoder
+          - list [ref=e1814]:
+            - listitem [ref=e1815] [cursor=pointer]:
+              - paragraph [ref=e1816]: Nutrigenomics
+            - listitem [ref=e1817] [cursor=pointer]:
+              - link [ref=e1818]:
+                - /url: /dna-decoder
+                - text: Physical Endurance
+            - paragraph [ref=e1819] [cursor=pointer]: See more
+        - generic [ref=e1820]:
+          - paragraph [ref=e1822]: MedMatch
+          - list [ref=e1823]:
+            - listitem [ref=e1824] [cursor=pointer]:
+              - paragraph [ref=e1825]: MedMatch Test
+            - paragraph [ref=e1826] [cursor=pointer]: Diabetes Pgx
+            - paragraph [ref=e1827] [cursor=pointer]: Diabetes & Cardiovascular Pgx
+            - paragraph [ref=e1828] [cursor=pointer]: Antipsychotic Pgx
+            - paragraph [ref=e1829] [cursor=pointer]: Antiepileptic Pgx
+            - paragraph [ref=e1830] [cursor=pointer]: Comprehensive Pgx
+        - generic [ref=e1831]:
+          - paragraph [ref=e1833]: Fetal Medicine & Genomics
+          - list [ref=e1834]:
+            - listitem [ref=e1835] [cursor=pointer]:
+              - paragraph [ref=e1836]: Fetal Medicine Tests & Procedures
+            - listitem [ref=e1837] [cursor=pointer]:
+              - paragraph [ref=e1838]: Ultrasounds Scans
+            - listitem [ref=e1839] [cursor=pointer]:
+              - paragraph [ref=e1840]: Genetic Counselling
+            - listitem [ref=e1841] [cursor=pointer]:
+              - paragraph [ref=e1842]: Our Technology
+            - listitem [ref=e1843] [cursor=pointer]:
+              - paragraph [ref=e1844]: For Patients & Visitors
+            - paragraph [ref=e1845] [cursor=pointer]: See more
+      - generic [ref=e1848]:
+        - generic [ref=e1849]:
+          - paragraph [ref=e1850]: Download Mr. Yoda Mobile App
+          - generic [ref=e1851]:
+            - link [ref=e1852] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=com.mryoda
+              - img [ref=e1853]
+            - link [ref=e1854] [cursor=pointer]:
+              - /url: https://apps.apple.com/us/app/mr-yoda/id6740283592
+              - img [ref=e1855]
+        - generic [ref=e1857]:
+          - img [ref=e1858]
+          - paragraph [ref=e1859]: NABL certified laboratory and under the guidelines of ICMR
+        - generic [ref=e1860]:
+          - paragraph [ref=e1861]: Connect with us
+          - list [ref=e1862]:
+            - listitem [ref=e1863]:
+              - link [ref=e1864] [cursor=pointer]:
+                - /url: https://x.com/mryoda_official
+                - img [ref=e1865]
+            - listitem [ref=e1867]:
+              - link [ref=e1868] [cursor=pointer]:
+                - /url: https://www.facebook.com/MrYodaOfficial
+                - img [ref=e1869]
+            - listitem [ref=e1871]:
+              - link [ref=e1872] [cursor=pointer]:
+                - /url: https://wa.me/+919135353535?text=Hello,%20I%20would%20like%20to%20book!
+                - img [ref=e1873]
+            - listitem [ref=e1875]:
+              - link [ref=e1876] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/yodadiagnostics/?viewAsMember=true
+                - img [ref=e1877]
+            - listitem [ref=e1879]:
+              - link [ref=e1880] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCwLSo3ZDK_Vcti72VYHMXMw
+                - img [ref=e1881]
+            - listitem [ref=e1883]:
+              - link [ref=e1884] [cursor=pointer]:
+                - /url: https://www.instagram.com/mryodaofficial/
+                - img [ref=e1885]
+          - link [ref=e1888] [cursor=pointer]:
+            - /url: tel:9135353535
+            - generic [ref=e1889]:
+              - img [ref=e1890]
+              - img [ref=e1892]
+            - generic [ref=e1894]:
+              - paragraph [ref=e1895]: Book now!
+              - paragraph [ref=e1896]: "9135353535"
+      - generic [ref=e1899]:
+        - list [ref=e1900]:
+          - listitem [ref=e1901]: © 2026 mryoda.com. All rights reserved.
+          - listitem [ref=e1902] [cursor=pointer]: Privacy Policy
+          - listitem [ref=e1903] [cursor=pointer]: Terms and Conditions
+        - generic [ref=e1904]:
+          - paragraph [ref=e1905]: All your payments are secured with
+          - img [ref=e1906]
+          - img [ref=e1907]
+  - dialog "Please select a location" [ref=e1909]:
+    - generic [ref=e1911]: "!"
+    - heading "Please select a location" [level=2] [ref=e1912]
+    - generic [ref=e1913]: for better serviceability.
+    - text: "!"
+    - button "OK" [active] [ref=e1915] [cursor=pointer]
+```

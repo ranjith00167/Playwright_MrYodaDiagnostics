@@ -1,0 +1,5 @@
+{
+  "language": "javascript",
+  "features": "features/**/*.feature",
+  "glue": ["step_definitions/**/*.js", "support/**/*.js"]
+}

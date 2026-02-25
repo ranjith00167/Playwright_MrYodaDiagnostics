@@ -1,0 +1,21 @@
+{
+    "cucumber.features": ["features/**/*.feature"],
+    "cucumber.glue": ["step_definitions/**/*.js", "support/**/*.js"],
+    "cucumber.stepDefinitions": ["step_definitions/**/*.js", "support/**/*.js"],
+    "cucumber.projectRoot": "c:/Users/RANJITH/Documents/Playwright_MrYodaDiagnostics",
+    "cucumber.type": "cucumber-js",
+    "cucumberautocomplete.steps": ["step_definitions/**/*.js", "support/**/*.js"],
+    "cucumberautocomplete.syncfeatures": "features/**/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "search.exclude": {
+        "**/MrYoda_vs/**": true,
+        "**/MrYodaDiagnostics/**": true,
+        "**/*.java": true
+    },
+    "files.exclude": {
+        "**/MrYoda_vs/**": true,
+        "**/MrYodaDiagnostics/**": true,
+        "**/*.java": true,
+        "**/*.class": true
+    }
+}
